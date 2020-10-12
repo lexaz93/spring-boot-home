@@ -1,5 +1,5 @@
 package ru.itsjava.milk;
 
-public interface Milkable {
+public interface Milky {
     double getPercentage();
 }
