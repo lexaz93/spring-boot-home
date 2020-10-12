@@ -9,7 +9,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.itsjava.milk.Milk;
-import ru.itsjava.milk.Milkable;
 
 @DisplayName("MilkCoffee have:")
 @SpringBootTest
