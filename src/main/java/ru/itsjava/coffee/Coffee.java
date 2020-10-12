@@ -11,7 +11,7 @@ public class Coffee {
     private String type;
 
     @Autowired
-    public Coffee(@Value("${type}") String type) {this.type = type;}
+    public Coffee(@Value("${app.coffee.type}") String type) {this.type = type;}
 
     @Override
     public String toString() {

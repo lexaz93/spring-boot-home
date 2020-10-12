@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: guest
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+app:
+  coffee:
+    type: Arabic
+
+---
+spring:
+  config:
+    activate:
+      on-profile: guest
+app:
+  coffee:
+    type: Robusta
+
